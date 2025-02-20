@@ -1,39 +1,36 @@
-# Listado de componentes en Next.js
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-Debes dejar operativo el siguiente listado de componentes React en local partiendo de un proyecto de NEXT.JS.  Da un formato elegante y unificado. Enlaza en cada uno de los componentes el código fuente del componente.
+## Getting Started
 
-- Componente "MiNombre". Debes indicar tu nombre, apellidos y cuenta de red social. Cada vez que se pase el ratón por encima cambiará de color de forma aleatoria (al menos 10 posibilidades). Siempre se notará el cambio, nunca se repetirá el color. Usa una clase para cambiar de colores. Cada clase tendrá al menos dos colores (de texto, de fondo...)
-- Componente "Toggle" que muestra un botón. Mostrará "on" si está encendido y "off" si está apagado. Inicialmente estará apagado. Cada estado se muestra en un color distinto.
-- Componente "Cliqueando". Mostrará el número de veces que se ha clicado en un botón que incrementa un contador. Mostrará el valor del contador en una caja de texto. 
-    - Si el contador es 0, mostrará "No has clicado aún" en color rojo.
-    - Si el contador es 1, mostrará "Has clicado 1 vez" en color amarillo.
-    - y si el contador es mayor que 1, mostrará "Has clicado X veces" en color verde.
-    - al entrar el ratón en la caja de texto se resetea el contador
-- Componente "Contando" que muestra un contador que incrementa en 1, 10, 100 y 1000. Está compuesto de varios componentes "Button". "Button" es un botón que incrementa el contador.
-- Componente "Holi" que muestra Hola X, ¿cómo estás?. En caso de no recibir nombre, mostrará "Hola. No te conozco". Usa renderizado condicional con && Usa destructuring al recibir el nombre. Muestra uno con nombre y otro sin nombre.
-- Componente "DespliegueEnViernes" que consiste en un textarea que cambia de color a rojo si contiene las palabras "despliegue" o "deploy" junto con "viernes" escrita de cualquier forma: mayúsculas, minúsculas, etc, en cualquier orden. En otro caso, siempre vuelve a negro. Si aparece en rojo también se añade la url clicable "https://youtu.be/Vhmek8362Fc". Al desaparecer el rojo también desaparece la url. 
-- Componente "CuentaFuegos" que muestra un botón que al hacer click suma un fuego al contador, muestra el número de fuegos y una imagen por cada fuego.    
-- Componente "Destino" que muestra un select con las ciudades y una imagen de la ciudad seleccionada.
-- Componente "ImagenCiudad" que muestra la imagen de la ciudad indicada, todas del mismo tamaño. Las imágenes se encuentran en la carpeta public. Forma parte del componente "Destino"
-- Componente "Reloj" que muestre la hora actual en formato hh:mm:ss
- 
+First, run the development server:
 
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-Recuerda aplicar de forma correcta y actualizada todo lo aprendido durante el curso.
-- Renderizado condicional
-- Usa el operador ternario y &&
-- Destructuring en la recepción de las props
-- Uso de key para las listas
-- Enlaza aquí la documentación que indica dónde colocar las imágenes.
-- Evita el uso de if/else, case, for clásico... Recuerda que React es un lenguaje declarativo
-- Ordena cada apartado de forma visual.
-- ...
-- Da un formato elegante.
-- Enlaza en cada uno de los componentes de arriba el código fuente del componente.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-El proyecto debe estar desplegado en tu equipo.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-  De interés:
-  - https://flaviocopes.com/react-example-counter/
-  - https://john-florez.gitbook.io/reactjs-book/eventos-en-react
-  - https://john-florez.gitbook.io/reactjs-book/estado-en-react#ejercicio-3
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
